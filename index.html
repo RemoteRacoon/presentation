@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h2>
+					Музыкальный самоучитель <br>
+					"Music Mentor" <br>
+				</h2>
+				<p style="font-size: 24px;">
+					Преподаватель: Николайчук О.А <br>
+					Студенты: Литвинцев В.В., Пинкин А.А.
+				</p>
+			</section>
+			<section>
+				<h2>
+					Цель проекта
+				</h2>
+				<p style="font-size: 24px; text-align: left;">
+					Обучение пользователя игре на выбранном им музыкальном инструменте и развитие музыкальных талантов. Данное ПО
+					не
+					может заменить полноценные уроки с преподавателем, особенно в случае студентов старших классов школы искусств.
+					<font style="text-decoration: underline;">
+						Программа должна помогать студенту лучше усваивать технический материал в отсутствие преподавателя.
+					</font>
+					Особенно
+					программа будет полезна детям в возрасте 5-7 лет, когда ребенок нуждается в дополнительном контроле.
+				</p>
+			</section>
+			<section>
+				<h2>
+					О приложении
+				</h2>
+				Чтобы описать функционал приложения, было решено представить следующие диаграммы.<br><br>
+				<div style="text-align: left;">
+					<div>
+						<ul>
+							Статические:
+							<li>Use Case</li>
+							<li>Class</li>
+							<li>Deployment</li>
+						</ul>
+					</div>
+					<br>
+					<div>
+						<ul>
+							Динамические:
+							<li>Sequence</li>
+							<li>Activity</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h2>Class</h2>
+				<a href="./dist/diagrams/class.jpg">Диаграмма</a>
+			</section>
+			<section>
+				<h2>Use Case</h2>
+				<a href="./dist/diagrams/use-case-repaired.jpg">Диаграмма</a>
+			</section>
+			<section>
+				<h2>Deployment</h2>
+				<a href="./dist/diagrams/deployment.jpg">Диаграмма</a>
+			</section>
+			<section>
+				<h2>Sequence</h2>
+				<a href="./dist/diagrams/sequence.jpg">Диаграмма</a>
+			</section>
+			<section>
+				<h2>Activity</h2>
+				<a href="./dist/diagrams/activity.jpg">Диаграмма</a>
+			</section>
+			<section>
+				<h2>Результаты проекта</h2>
+				<p style="font-size: 24px;">
+
+					Готовое ПО, пригодное для обучения пользователей основам музыкального инструмента,
+					а
+					также позволяющее оттачивать навыки соответствующего инструмента для выхода на новый уровень мастерства.
+				</p>
+			</section>
+			<section>
+				Спасибо за внимание.
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
